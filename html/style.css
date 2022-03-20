@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ededaa;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    font-family: "Arial Black";
+    text-align: center;
+    padding: 1.2em;
+}
+.textstuffs {
+    margin-top: 10em;
+    margin-left: 10em;
+}
+footer {
+    font-size: smaller;
+}
+
+
+
+#currentsite {
+    color: cornflowerblue;
+}
+
+
+.menulink {
+    --menutranstime: .2s;
+    font-size: small;
+    padding: 1.5em;
+    color: inherit;
+    transition: color var(--menutranstime);
+}
+.menulink:hover {
+    color: dimgray;
+    transition: color var(--menutranstime);
+}
